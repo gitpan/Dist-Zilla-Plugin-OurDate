@@ -1,4 +1,9 @@
-Revision history for Dist-Zilla-OurDate
+Revision history for Dist-Zilla-Plugin-OurDate
+
+0.02    2014-12-06 (PERLANCAR)
+
+	- [Bugfix] Forgot to 'use POSIX' [GH#1].
+
 
 0.01     2014-04-16 (SHARYANTO)
 

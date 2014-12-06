@@ -1,11 +1,13 @@
 package Dist::Zilla::Plugin::OurDate;
 
+our $DATE = '2014-12-06'; # DATE
+our $VERSION = '0.02'; # VERSION
+
 use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01'; # VERSION
-# DATE
+use POSIX ();
 
 use Moose;
 with (
@@ -85,7 +87,7 @@ Dist::Zilla::Plugin::OurDate - no line insertion and does Package release date w
 
 =head1 VERSION
 
-version 0.01
+This document describes version 0.02 of Dist::Zilla::Plugin::OurDate (from Perl distribution Dist-Zilla-Plugin-OurDate), released on 2014-12-06.
 
 =head1 SYNOPSIS
 
@@ -132,11 +134,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2014 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
